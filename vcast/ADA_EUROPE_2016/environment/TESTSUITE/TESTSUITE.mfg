@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manage-config-options version="7">
+  <config>
+    <key>MANAGE_WHITEBOX</key>
+    <value>YES</value>
+    <key>MANAGE_COVERAGE_TYPE</key>
+    <value>STATEMENT+BRANCH</value>
+    <key>MANAGE_PARENT_LIB</key>
+    <value>../src</value>
+  </config>
+</manage-config-options>

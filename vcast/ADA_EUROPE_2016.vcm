@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="13">
+  <config>
+    <saved-logs>5</saved-logs>
+    <build-directory-naming-strategy>COMPRESSED</build-directory-naming-strategy>
+  </config>
+  <project-id>1453571111</project-id>
+  <factor-config-options>0</factor-config-options>
+  <environment name="TESTSUITE" type="UNIT">
+    <language>0</language>
+    <imported-from>REGRESSION</imported-from>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>.</original-environment-directory>
+    </config>
+  </environment>
+  <group name="Group">
+    <environment name="TESTSUITE"/>
+  </group>
+  <source-collection name="Source_1">
+    <platform name="Linux">
+      <compiler>
+        <compiler>
+          <name>GNAT</name>
+        </compiler>
+        <testsuite name="TestSuite">
+          <group name="Group"/>
+        </testsuite>
+      </compiler>
+    </platform>
+  </source-collection>
+  <search-directory type="TESTABLE_SOURCE_DIR">/home/avj/ada_europe_2016/examples/ada/wb/</search-directory>
+</project>
